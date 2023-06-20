@@ -356,6 +356,7 @@ img {
 .container-examples {
   display: none;
 }
+
 /* Team */
 .team-section {
   background-color: var(--secondary-background);
@@ -363,8 +364,7 @@ img {
   padding-bottom: 96px;
 }
 .team-section > .container {
-  padding-left: 82px;
-  padding-right: 82px;
+  max-width: 296px;
 }
 .employee {
   text-align: center;
@@ -465,6 +465,9 @@ img {
   padding-bottom: 96px;
   background-color: var(--secondary-color);
 }
+.logo-container{
+  margin-bottom: 72px;
+}
 
 .logo-footer {
   display: block;
@@ -486,7 +489,6 @@ img {
   width: 268px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 72px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;

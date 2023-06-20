@@ -13,13 +13,6 @@
   }
 }
 
-@media screen and (max-width: 427px) {
-  .team-section > .container {
-    max-width: 296px;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-}
 @media screen and (min-width: 768px) {
   .menu-open-btn {
     display: none;
@@ -132,8 +125,7 @@
   .team-section > .container,
   .customers > .container,
   .footer > .container {
-    padding-left: 108px;
-    padding-right: 108px;
+    max-width: 584px;
   }
   .employee-card {
     column-gap: 24px;
@@ -161,12 +153,14 @@
     column-gap: 24px;
     row-gap: 72px;
   }
+  .logo-container{
+  margin-bottom: 0;
+}
   .logo-footer {
     text-align: left;
   }
   .footer-description {
     text-align: left;
-    margin-bottom: 0;
     width: 264px;
   }
   .footer-title {
@@ -237,8 +231,8 @@
   .customers > .container,
   .footer > .container {
     max-width: 1158px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .logo {
